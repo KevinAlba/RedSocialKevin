@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+}
+/****************************************************LOOGIM**********************************************************************/
+#login{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 580px;
+    background-image: url(imagenes/fondoLogin.webp);
+    background-position: 60%;
+    background-size: cover;
+}
+.login1{
+    width: 300px;
+}
+.login2{
+    padding: 15px;
+    background-color:   rgb(245, 245, 245, 0.5);;
+    display: grid;
+    gap: 15px;
+    border-radius: 15px;
+}
+.login3{
+    font-weight: bold;
+}
+.login4{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.login5{
+    padding: 10px;
+    background-color: rgb(41, 0, 79, 0.777);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.login5:hover {
+    background-color: rgb(63, 0, 122, 0.777);
+}
+.login6{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.login7{
+    color: #007bff;
+    text-decoration: none;
+}
+.login7:hover {
+    text-decoration: underline;
+}
+.login8{
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+.login10{
+    text-decoration: none;
+    color: white;
+}
+.login10:hover{
+    color: rgb(41, 0, 79, 0.777);
+}
+.login9{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+
+/****************************************************REGISTRO**********************************************************************/
+#registre{
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 580px;
+    background-image: url(imagenes/fondoLogin.webp);
+    background-position: 60%;
+    background-size: cover;
+}
+.registre2{
+    padding: 15px;
+    background-color:   rgb(245, 245, 245, 0.5);;
+    display: grid;
+    gap: 15px;
+    border-radius: 15px;
+}
+.registre3{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 105px;
+}
+.registre4{
+        font-weight: bold;
+}
+.registre5{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.registre6{
+    padding: 10px;
+    background-color: rgb(41, 0, 79, 0.777);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.registre6:hover {
+    background-color: rgb(63, 0, 122, 0.777);
+}
+.registre7{
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.registre8{
+    color: #007bff;
+    text-decoration: none;
+}
+.registre8:hover {
+    text-decoration: underline;
+}
+::-webkit-file-upload-button {
+    font: 'Arial', sans-serif;
+    background: rgb(41, 0, 79, 0.777) ;
+    color: rgb(255, 255, 255);
+    border-color: rgb(41, 0, 79, 0.777)  ;
+    padding: 7px 10px;
+    font-weight: bold;
+    font-size: 0.7rem;
+    border-radius: 4px;
+  }
+/***************************************************Index***********************************************************************/
+#index{
+    font-family: 'Arial', sans-serif;
+    height: 1260px;
+    background-image: url(imagenes/fondoLogin.webp);
+    background-position: 60%;
+    background-size: cover;
+    padding-top: 15px;
+}
+.index1{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(245, 245, 245, 0.5) ;
+    padding: 10px;  
+    padding-left: 0px;
+}
+.index2{
+    gap: 35px;
+    display: flex;
+}
+.index3{
+    margin-left: 830px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+.index3:hover{
+    color: rgb(63, 0, 122, 0.777);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.index4{
+    margin-top: 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+.index4:hover{
+    color: rgb(63, 0, 122, 0.777);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.perfil{
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+}
+.index5{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 1.30rem;
+}
+.index5:hover{
+    color:  rgb(63, 0, 122, 0.777);
+}
+.index6{
+    position: fixed;
+    background-color: rgb(245, 245, 245, 0.5) ;
+    width: 195px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.index7{ 
+    list-style: none;
+    margin-left: -15px;
+}
+.index8{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+.index8:hover{
+    color: rgb(63, 0, 122, 0.777);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.index9{
+    margin-left: 220px ;
+    margin-top: 20px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245, 0.5)  ;
+    padding-bottom: 15px;
+}
+.index10{
+    display: grid;
+    grid-template-columns:325px 325px 325px;
+    grid-template-rows: 500px;
+    gap: 20px;
+}
+.index11{
+    width: 250px;
+    margin-top: 25px;
+    margin-left: 145px;
+    background-color: white;
+    border: 3px solid black;
+    padding: 15px;
+    border-radius: 8px;
+}
+.index12{
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #070e58a0;
+}
+.index12:hover{
+    color: #000;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.index13{
+    margin-bottom: 15px;
+    color: #070e58a0;
+    margin-left: 60px;
+}
+.index14{
+    padding-top: 5px;
+    margin-left: 10px;
+    width: 235px;
+    height: 250px;
+    border-radius: 8px;
+}
+.index15{
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #070e58a0;
+    text-align:left;
+}
+.index16{
+    margin-top: 15px;
+    display: flex ;
+}
+.index17{
+    font-size: 0.9rem;
+    color: black;
+    margin-right: 80px;
+}
+.index19{
+    margin-left: 220px ;
+    margin-top: 25px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(245, 245, 245, 0.5)  ;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding-bottom: 15px;
+}
+.index20{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    margin-top: 15px;
+}
+.index21{
+    display: flex;
+    gap: 10px;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.index22{
+    margin-top: 30px;
+    margin-left: 670px;
+}
+.index23{
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(41, 0, 79, 0.777);
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.index23:hover{
+    color: rgb(63, 0, 122, 0.777);
+}
+.index24{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.index25{
+    width: 30px;
+    background-color: white;
+    color: black;
+}
+.prueba{
+    margin-top: 15px;
+}
+/***************************************************Footer***********************************************************************/
+footer{
+    background-color:rgba(41, 0, 79, 0.777);
+    height: 60px;
+    padding-top: 40px;
+    border-top: 3px solid #000;
+
+}
+
+.footer2{
+    margin-left: 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    
+ }
+ .footer2:hover{
+    color: #ff00d0;
+ }
+ .footer3{
+    margin-left: 560px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+ }
+ .footer3:hover{
+    color: #ff00d0;
+ }
+
